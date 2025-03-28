@@ -11,9 +11,8 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavigationBar(items: [
-        BottomNavigationBarItem(icon: icon)
-      ]),
+      bottomNavigationBar:
+          BottomNavigationBar(items: [BottomNavigationBarItem(icon: icon)]),
     );
   }
 }
