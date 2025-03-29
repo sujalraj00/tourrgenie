@@ -11,11 +11,12 @@ class BarItemPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: const <Widget>[
             Text(
-              'Search Page!',
+              'Bar item Page!',
             ),
           ],
         ),
       ),
-    );;
+    );
+    ;
   }
 }
