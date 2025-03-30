@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tourgenie/screens/nav_pages/bar_item_page.dart';
-import 'package:tourgenie/screens/nav_pages/home_page.dart';
+import 'package:tourgenie/screens/home_page.dart';
 import 'package:tourgenie/screens/nav_pages/my_page.dart';
 import 'package:tourgenie/screens/nav_pages/search_page.dart';
 
