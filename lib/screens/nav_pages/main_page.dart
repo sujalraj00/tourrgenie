@@ -28,8 +28,11 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: pages[currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+          // fixedColor: Colors.white,
+          backgroundColor: Colors.white,
           unselectedFontSize: 0,
           selectedFontSize: 0,
           onTap: onTap,
@@ -41,11 +44,30 @@ class _MainPageState extends State<MainPage> {
           showSelectedLabels: false,
           elevation: 0,
           items: [
-            BottomNavigationBarItem(label: 'Home', icon: Icon(Icons.apps)),
             BottomNavigationBarItem(
-                label: 'Bar', icon: Icon(Icons.bar_chart_sharp)),
-            BottomNavigationBarItem(label: 'Search', icon: Icon(Icons.search)),
-            BottomNavigationBarItem(label: 'My', icon: Icon(Icons.person))
+              label: 'Home',
+              icon: Icon(Icons.apps),
+              backgroundColor:
+                  Colors.white, // Set background color for this item
+            ),
+            BottomNavigationBarItem(
+              label: 'Bar',
+              icon: Icon(Icons.bar_chart_sharp),
+              backgroundColor:
+                  Colors.white, // Set background color for this item
+            ),
+            BottomNavigationBarItem(
+              label: 'Search',
+              icon: Icon(Icons.search),
+              backgroundColor:
+                  Colors.white, // Set background color for this item
+            ),
+            BottomNavigationBarItem(
+              label: 'My',
+              icon: Icon(Icons.person),
+              backgroundColor:
+                  Colors.white, // Set background color for this item
+            ),
           ]),
     );
   }
